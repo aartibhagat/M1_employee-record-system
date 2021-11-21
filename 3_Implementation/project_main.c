@@ -209,9 +209,6 @@ int main()
 		"~~~");
 	printf("\n\t\t\t\t====================="
 		"==============================\n");
-	printf("\n\n\n\t\t\t\t\t\t\t\t\t\t"
-		"Developer : @Sushant_Gaurav"
-		"\n\n\t\t\t\t");
 
 	system("pause");
 
