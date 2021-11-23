@@ -1,0 +1,20 @@
+name: Windows C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: gcc project_mian.c -o a.exe
+    - name: Run
+      run: .\a.exe
+   
