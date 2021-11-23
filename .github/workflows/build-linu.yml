@@ -15,6 +15,6 @@ jobs:
     - name: checkout
     - uses: actions/checkout@v2
     - name: setup
-      run: sudo apt-get install make
+      run: project_main.c
     - name: make
       run: make -C Multifile
